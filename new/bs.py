@@ -136,7 +136,33 @@ from bs4 import BeautifulSoup
 
 
 
+# 'insident'
 
+# html = urlopen(https://ria.ru/incidents/).read()
+# soup = BeautifulSoup(html, 'html.parser')
+# title = soup.title.string
+# div = soup.find('div', attrs={'class':'b-list'})
+# f = []
+# for row in div.find_all('div'):
+# 	cols = row.find_all('a')
+# 	if cols:
+# 		f.append(cols)
+# for i in range(len(f)):
+# 	try:
+# 		link = f[i][0]['href']
+# 		print("link: {}".format(link))
+# 	except:
+# 		pass
+# 	try:	
+# 		title = f[i][0].contents[1].contents[0].string
+# 		print("title: {}".format(title))
+# 	except:
+# 		pass
+# 	try:
+# 		image = f[i][0].contents[0].contents[0].contents[0]['src']
+# 		print("image: {}".format(image))
+# 	except:
+# 		pass
 
 
 
